@@ -1,0 +1,31 @@
+<Window x:Class="TCDD.Vagon_Secim"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TCDD"
+        mc:Ignorable="d"
+        Margin="0,0,0,0"
+        Title="Vagon_Secim_Sayfası" Height="700" Width="900">
+            <StackPanel>
+                <WrapPanel>
+                <Image Name="image3" Width="120" Height="120"  Margin="20,0,0,0" Source="pack://siteoforigin:,,,/images/resim.png" Stretch="Uniform"/>
+                        <Label FontSize="30" FontWeight="Bold" Foreground="#0000cd" Margin="160,0,0,0">YENİ SİVAS YHT HATTI</Label>
+                </WrapPanel>
+                <WrapPanel Margin="40,50,0,0">
+                <Button Name="Ilk_Vagon" Click="Ilk_Vagon_click" FontWeight="Bold" Foreground="Blue"  Width="150" Height="30" Margin="5,0,0,0" >Hareket Vagonu</Button>
+                <Button Name="Birinci_Vagon" Click="Birinci_Vagon_click" FontWeight="Bold" Foreground="Blue"  Width="150" Margin="5,0,0,0" >1.VAGON</Button>
+                <Button Name="Ikınci_Vagon" Click="Ikinci_Vagon_click" FontWeight="Bold" Foreground="Blue"  Width="150" Margin="5,0,0,0" >2.VAGON</Button>
+                <Button Name="Ucuncu_Vagon" Click="Ucuncu_Vagon_click" FontWeight="Bold" Foreground="Blue"  Width="150"  Margin="5,0,0,0">3.VAGON</Button>
+                <Button Name="Dorduncu_Vagon" Click="Dorduncu_Vagon_click" FontWeight="Bold" Foreground="Blue"  Width="150"  Margin="5,0,0,0">4.VAGON</Button>
+                <Button Name="Devam" Click="Devam_Click" FontWeight="Bold" Foreground="Blue"  Width="50"  Margin="5,0,0,0" >Devam...</Button>
+                     </WrapPanel>
+
+                    <Label FontSize="20" FontWeight="Bold"  Foreground="Red"  Name="Vagon_Adi" Margin="100,0,0,0"/> 
+                           
+                <WrapPanel Name="Koltuk" Margin="150,20,0,0">
+                        
+                    </WrapPanel>
+                
+            </StackPanel>
+</Window>
